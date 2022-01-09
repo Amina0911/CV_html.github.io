@@ -1,0 +1,153 @@
+
+body{
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: cornsilk;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+.Profil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+}
+img{
+    border-radius: 40%;
+}
+h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+span{
+    font-size: 0,8em;
+    font-weight: 300;
+}
+
+h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ul{
+    position: relative;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.icone{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: salmon;
+}
+.etudes li{
+    margin-bottom: 15px;
+}
+.etudes h5{
+    color: palevioletred;
+    font-weight: 500;
+}
+.etudes h4{
+    font-weight: 300;
+}
+.pourcentage{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #ffffff;
+    display: block;
+    margin-top: 5px;
+}
+.pourcentage div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: palevioletred;
+}
+
+.container .gauche{
+    position: relative;
+    background: #cecece;
+    padding: 40px;
+}
+.container .droite{
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+}
+.infos{
+    margin-bottom: 50px;
+}
+.infos:last-child{
+    margin-bottom: 0;
+}
+.infos h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.C{
+position: relative;
+width: 100%;
+display: grid;
+grid-template-columns: 150px 1fr;
+justify-content: center;
+align-items: center;
+}
+.C h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.C .pourcentage{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #cecece;
+}
+.C .pourcentage div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: palevioletred;
+}
+
+.interet ul{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+
+.interet ul li{
+list-style: none;
+font-weight: 500;
+margin: 10px 0;
+
+}
+.interet .fa{
+    color: palevioletred;
+    font-size: 18px;
+    width: 20px;
+}
